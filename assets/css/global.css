@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+/* Adicione estas regras para centralizar a imagem no cabeçalho */
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho img {
+    display: inline-block;
+}
+
+
+/* Adicione estas regras para o efeito de hover nos cards dos Pokémon */
+.pokemon:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adicione sombra ao passar o mouse */
+    transition: box-shadow 0.3s ease; /* Adicione uma transição suave */
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
