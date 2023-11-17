@@ -1,2 +1,2 @@
 # Dio-Pokedex
-Curso da dio
+Pokedex com html,css,javascript e bootstrap
